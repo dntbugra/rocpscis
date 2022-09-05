@@ -1,1 +1,1 @@
-print("sa oclar")
+print("sa")
