@@ -1,23 +1,24 @@
-import random
-
-def win():
-    print("\nKazandın!")
-def draw():
-    print("\nBerabere!")
-def lose():
-    print("\nKaybettin!")
-
-moves=("Rock" , "Paper" , "Scissors")
-
-x=random.choice(moves)
-
-a=moves[0]
-b=moves[1]
-c=moves[2]
-
-print("\nHoşgeldin\n")
-
 def play():
+    import random
+
+    def win():
+        print("\nKazandın!")
+    def draw():
+        print("\nBerabere!")
+    def lose():
+        print("\nKaybettin!")
+
+    moves=("Rock" , "Paper" , "Scissors")
+
+    x=random.choice(moves)
+
+    a=moves[0]
+    b=moves[1]
+    c=moves[2]
+
+    print("\nHoşgeldin\n")
+
+    # def play():
     print("Taş için 'q' ya , kağıt için 'w' ya , makas için 'e' ye bas\n")
 
     pm=input()
